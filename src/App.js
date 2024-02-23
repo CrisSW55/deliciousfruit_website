@@ -3,7 +3,7 @@ import './App.css';
 import './App.css';
 import * as React from 'react';
 import { useState,useEffect } from 'react';
-import NavBar2 from './components/navbar2';
+import NavBar from './components/navbar';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,7 +18,7 @@ function App() {
   return (
  <>
 
-    <NavBar2 />
+    <NavBar />
     
       
 

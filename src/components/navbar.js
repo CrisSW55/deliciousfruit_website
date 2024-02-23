@@ -12,7 +12,7 @@ import SignUp from './sign_up';
 
 
 
-export default function NavBar2(){
+export default function NavBar(){
     return(
       <>
       
