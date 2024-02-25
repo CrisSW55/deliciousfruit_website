@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifye9a13d7e4d344-staging-225214",
       "StackId": "arn:aws:cloudformation:us-west-1:891377209423:stack/amplify-amplifye9a13d7e4d344-staging-225214/5a33f1f0-d367-11ee-bcd4-02b819bb8a1f",
       "AmplifyAppId": "d28esjoposc6aa"
+    },
+    "categories": {
+      "api": {
+        "deliciousfruitwebsit": {}
+      },
+      "auth": {
+        "deliciousfruitwebsit79943499": {}
+      },
+      "storage": {
+        "s33cf5689d": {}
+      }
     }
   }
 }
