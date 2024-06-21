@@ -107,6 +107,7 @@ function App({ signOut }) {
           </Button>
         </Flex>
       </View>
+
       <Heading level={2}>Current Notes</Heading>
       <View margin="3rem 0">
         {notes.map((note) => (
@@ -126,15 +127,16 @@ function App({ signOut }) {
           </Flex>
         ))}
       </View>
+
       <Button onClick={signOut}>Sign Out</Button>
-    </View>
-    <View
-  name="image"
-  as="input"
-  type="file"
-  style={{ alignSelf: "end" }}
-/>
-{notes.map((note) => (
+      </View>
+    {/* <View
+      name="image"
+      as="input"
+      type="file"
+      style={{ alignSelf: "end" }}
+    /> */}
+{/* {notes.map((note) => (
   <Flex
     key={note.id || note.name}
     direction="row"
@@ -156,7 +158,7 @@ function App({ signOut }) {
       Delete note
     </Button>
   </Flex>
-))}
+))} */}
 
 
 
